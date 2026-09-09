@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kartik Gupta — Frontend Developer</title>
+<meta name="description" content="Portfolio of Kartik Gupta, BTech CSE student specialising in frontend development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">Kartik<span class="dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Say hello</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <p class="hero-kicker">2nd year BTech CSE · Frontend specialisation</p>
+        <h1>Kartik Gupta<span class="accent-dot">.</span></h1>
+        <h2 class="hero-role">Frontend Developer &amp; CSE Student</h2>
+        <p class="hero-lede">I'm a CS student who spends most days between DSA problems and the browser console — learning frontend development by shipping real things, from an NGO's public website to daily code practice logged in the open.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait-glow"></div>
+        <img src="assets/kartik.png" alt="Kartik Gupta" class="hero-photo">
+      </div>
+
+      <div class="hero-terminal" aria-hidden="true" style="display:none">
+        <div class="terminal-bar">
+          <span class="dot-r"></span><span class="dot-y"></span><span class="dot-g"></span>
+          <span class="terminal-title">kartik@portfolio — zsh</span>
+        </div>
+        <div class="terminal-body" id="terminalBody"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-photo-wrap">
+        <img src="assets/Screenshot 2026-09-09 at 11.11.33 PM.png" alt="Portrait of Kartik Gupta" class="about-photo">
+      </div>
+      <div class="about-content">
+        <p class="section-number">01 / ABOUT</p>
+        <h2>About me</h2>
+        <p>I'm a second-year BTech CSE student (SAP ID 590025981, Batch 5) specialising in frontend development. Alongside coursework, I've been building my fundamentals in C and Python, working through data structures and algorithms on Linux, and applying what I learn to real projects instead of leaving it in a notebook.</p>
+        <p>My biggest project so far is the website for Human Life Foundation, an NGO — my first time taking a site from a blank file to something live that real people visit. I also keep two public logs on GitHub: 100 Days of C and 100 Days of DSA, where I push code daily to stay consistent and track how I'm improving.</p>
+        <div class="skills">
+          <span class="skill-chip">HTML / CSS / JavaScript</span>
+          <span class="skill-chip">C</span>
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">Data Structures & Algorithms</span>
+          <span class="skill-chip">Linux</span>
+          <span class="skill-chip">Git & GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="section-number">02 / PROJECTS</p>
+      <h2>Selected work</h2>
+      <p class="section-lede">A mix of a real client site and the daily practice that backs it up.</p>
+
+      <div class="project-grid">
+
+        <article class="project-card project-card-featured">
+          <div class="project-top">
+            <span class="project-tag">Live client site</span>
+          </div>
+          <h3>Human Life Foundation</h3>
+          <p>Public website for an NGO, built to give the organisation a clear, credible presence online — information about their work, presented simply, for visitors who've never heard of them before.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://hlfjaiour.org" target="_blank" rel="noopener" class="project-link">Visit site ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-tag">Daily practice</span>
+          </div>
+          <h3>100 Days of C</h3>
+          <p>A 100-day log of C programs, one commit at a time — working through syntax, memory, and problem-solving fundamentals in public on GitHub.</p>
+          <div class="project-tech">
+            <span>C</span><span>Git</span>
+          </div>
+          <a href="https://github.com/Kartikg90" target="_blank" rel="noopener" class="project-link">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-tag">Daily practice</span>
+          </div>
+          <h3>100 Days of DSA</h3>
+          <p>A parallel 100-day log focused on data structures and algorithms — arrays, linked lists, trees, and the problem patterns that come up again and again.</p>
+          <div class="project-tech">
+            <span>DSA</span><span>Python</span><span>Git</span>
+          </div>
+          <a href="https://github.com/Kartikg90" target="_blank" rel="noopener" class="project-link">View on GitHub ↗</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-intro">
+        <p class="section-number">03 / CONTACT</p>
+        <h2>Let's build something.</h2>
+        <p>Open to frontend internships, collaborations, or just a conversation about DSA. Reach out directly or use the form.</p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:kartikguptaa1912@gmail.com">kartikguptaa1912@gmail.com</a></li>
+          <li><span>GitHub</span><a href="https://github.com/Kartikg90" target="_blank" rel="noopener">github.com/Kartikg90</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/kartik-gupta-2b4954317" target="_blank" rel="noopener">linkedin.com/in/kartik-gupta</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="https://formsubmit.co/kartikguptaa1912@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from portfolio site">
+        <input type="hidden" name="_captcha" value="false">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required placeholder="What's on your mind?"></textarea>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <p>&copy; <span id="year"></span> Kartik Gupta. Built by hand, with a little AI help along the way.</p>
+    <a href="documentation.pdf" download class="download-btn">
+      <span>⤓</span> Download documentation
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
